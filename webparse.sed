@@ -1,3 +1,7 @@
+#! /bin/sed -f
+
+## Parses muck like characters in web stuffs
+
 s/&lsquo;\|&#8216;\|%91/‘/g
 s/&rsquo;\|&#8217;\|%92/’/g
 s/&sbquo;\|&#8218;\|%82/‚/g
